@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="judul">Detailed Transactions</string>
+    <string name="alamat_toko">Taman Karya Street</string>
+    <string name="nama_pelanggan">enter username</string>
+    <string name="tipe_pelanggan">customer type</string>
+    <string name="kode_barang">enter the item code</string>
+    <string name="kode1">gold</string>
+    <string name="kode2">silver</string>
+    <string name="kode3">normall</string>
+    <string name="jumlah_barang">enter the number of items</string>
+    <string name="button_proses">process</string>
+    <string name="tipe_member">member type</string>
+    <string name="text1">today\'s transaction</string>
+    <string name="text2">customers name</string>
+    <string name="text3">quantity item</string>
+    <string name="text4">name item</string>
+    <string name="text5">price item</string>
+    <string name="text6">total cost</string>
+    <string name="text7">discount item</string>
+    <string name="text8">discount member</string>
+    <string name="text9">total payment</string>
+    <string name="text10">Thank you for your trust!</string>
+    <string name="text11">Save this proof of payment for valid proof of payment</string>
+    <string name="text12">share</string>
+</resources>

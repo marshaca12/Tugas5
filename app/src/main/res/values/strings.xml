@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="judul">Detail Transaksi</string>
+    <string name="alamat_toko">Jalan Taman Karya</string>
+    <string name="nama_pelanggan">Masukkan Nama Pelanggan</string>
+    <string name="tipe_pelanggan">Tipe Pelanggan</string>
+    <string name="kode_barang">Masukkan Kode Barang</string>
+    <string name="kode1">Emas</string>
+    <string name="kode2">Perak</string>
+    <string name="kode3">Biasa</string>
+    <string name="jumlah_barang">Masukkan Jumlah Barang</string>
+    <string name="button_proses">Proses</string>
+
+    <string name="tipe_member">Tipe Member:</string>
+    <string name="text1">Transaksi Anda Hari Ini</string>
+    <string name="text2">Nama Pelanggan:</string>
+    <string name="text3">Jumlah Barang:</string>
+    <string name="text4">Nama Barang:</string>
+    <string name="text5">Harga Barang:</string>
+    <string name="text6">Total Harga:</string>
+    <string name="text7">Diskon Harga:</string>
+    <string name="text8">Diskon Member:</string>
+    <string name="text9">Total Bayar:</string>
+    <string name="text10">Terima Kasih Atas Kepercayaan Anda!</string>
+    <string name="text11">"Simpan Bukti Pembayaran Ini Untuk bukti pembayaran yang sah </string>
+    <string name="text12">Bagikan</string>
+
+</resources>

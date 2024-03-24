@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="judul">Transactions détaillées</string>
+    <string name="alamat_toko">Rue Taman Karya</string>
+    <string name="nama_pelanggan">Saisissez votre nom d\'utilisateur</string>
+    <string name="tipe_pelanggan">Type de client</string>
+    <string name="kode_barang">entrez le code de l\'article</string>
+    <string name="kode1">gold</string>
+    <string name="kode2">silber</string>
+    <string name="kode3">normal</string>
+    <string name="jumlah_barang">Geben Sie die Anzahl der Artikel ein</string>
+    <string name="button_proses">processus</string>
+    <string name="tipe_member">type de membre</string>
+    <string name="text1">la transaction d\'aujourd\'hui</string>
+    <string name="text2">nom du client</string>
+    <string name="text3">article en quantité</string>
+    <string name="text4">nom de l\'élément</string>
+    <string name="text5">article de prix</string>
+    <string name="text6">coût total</string>
+    <string name="text7">article à prix réduit</string>
+    <string name="text8">réduction pour les membres</string>
+    <string name="text9">paiement total</string>
+    <string name="text10">Merci pour ta confiance!</string>
+    <string name="text11">Conservez cette preuve de paiement comme preuve de paiement valide</string>
+    <string name="text12">partager</string>
+</resources>

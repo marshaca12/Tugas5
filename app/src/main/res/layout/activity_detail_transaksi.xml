@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Judul Halaman Detail Transaksi -->
+    <TextView
+        android:id="@+id/tvJudulDetailTransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Transaksi"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <!-- Informasi Transaksi -->
+    <TextView
+        android:id="@+id/tvInformasiTransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/tvJudulDetailTransaksi"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Tombol Share -->
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text12"
+        android:layout_below="@id/tvInformasiTransaksi"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+

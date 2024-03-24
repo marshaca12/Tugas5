@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="judul">Detaillierte Transaktionen</string>
+    <string name="alamat_toko">Taman Karya Straße</string>
+    <string name="nama_pelanggan">Geben Sie den Benutzernamen ein</string>
+    <string name="tipe_pelanggan">Kundentyp</string>
+    <string name="kode1">ol</string>
+    <string name="kode2">argent</string>
+    <string name="kode3">normall</string>
+    <string name="jumlah_barang">entrez le nombre d\'articles</string>
+    <string name="button_proses">Verfahren</string>
+    <string name="tipe_member">Mitgliedstyp</string>
+    <string name="text1">die heutige Transaktion</string>
+    <string name="text2">Kundenname</string>
+    <string name="text3">Mengenartikel</string>
+    <string name="text4">Artikel benennen</string>
+    <string name="text5">Preisartikel</string>
+    <string name="text6">Gesamtkosten</string>
+    <string name="text7">Rabattartikel</string>
+    <string name="text8">Mitgliederrabatt</string>
+    <string name="text9">Gesamtzahlung</string>
+    <string name="text10">Danke für dein Vertrauen!</string>
+    <string name="text11">Bewahren Sie diesen Zahlungsnachweis als gültigen Zahlungsnachweis auf</string>
+    <string name="text12">aktie</string>
+</resources>

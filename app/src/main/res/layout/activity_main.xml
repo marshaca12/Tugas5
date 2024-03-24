@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Judul Toko -->
+    <TextView
+        android:id="@+id/tvJudulToko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOKO HP Marsha Cahyani Dwisyakilla Quiz 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Alamat Toko -->
+    <TextView
+        android:id="@+id/tvAlamatToko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alamat_toko"
+        android:textSize="16sp"
+        android:layout_below="@id/tvJudulToko"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNamaPelanggan"
+            android:text=" "
+            android:hint="@string/nama_pelanggan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- Tipe Pelanggan -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipe_pelanggan"
+        android:textSize="16sp"
+        android:layout_below="@id/etNamaPelanggan"
+        android:layout_marginTop="0dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgTipePelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kode1"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/rbSilver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kode2"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/rbBiasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kode3"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <!-- Kode Barang -->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etKodeBarang"
+            android:text=" "
+            android:hint="@string/kode_barang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Jumlah Barang -->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etJumlahBarang"
+            android:text=" "
+            android:hint="@string/jumlah_barang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Tombol Proses -->
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_proses"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
+
